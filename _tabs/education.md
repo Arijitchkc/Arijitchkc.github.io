@@ -4,6 +4,8 @@ title: Education
 icon: 
 order: 4
 ---
+<link rel="stylesheet" href="../academicons-1.9.4/css/academicons.css"/>
+
 # Education
 
 

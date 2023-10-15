@@ -4,6 +4,8 @@ title: Resources
 icon: 
 order: 5
 ---
+<link rel="stylesheet" href="../academicons-1.9.4/css/academicons.css"/>
+
 # Resources
 
 Over the years of undergraduate education and research, I have accumulated some useful pieces of codes which I have planned to gradually upload to github and make them available. Will do this as and when I get time. Till then enjoy these comics(Which you might have probably seen before! )

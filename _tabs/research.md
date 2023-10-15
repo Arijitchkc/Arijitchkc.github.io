@@ -4,6 +4,8 @@ title: Research
 icon: 
 order: 2
 ---
+<link rel="stylesheet" href="../academicons-1.9.4/css/academicons.css"/>
+
 # My Research
 
 Let's get to the real stuff now! Sooner or Later I will also try to add some more description to these projects, possibly include a scaled down version of the codes used.

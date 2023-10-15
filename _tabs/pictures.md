@@ -4,6 +4,7 @@ title: Pictures
 icon: 
 order: 6
 ---
+<link rel="stylesheet" href="../academicons-1.9.4/css/academicons.css"/>
 
 # Pictures
 Photographs are a gateway to the past, which allow us to relieve the well-spent time. Here are some pictures you might enjoy(Not all are clicked by me!)
@@ -36,6 +37,8 @@ Photographs are a gateway to the past, which allow us to relieve the well-spent 
 
 
 ## Sedimentology Fieldwork
+
+
 <br/>
 
 {% include moduleL.html image_path="../assets/img/SedimentologyFieldPhotos/SField4.webp" title="1. The field is our classroom 1
