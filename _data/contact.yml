@@ -1,18 +1,24 @@
 #  The contact options.
+- type: twitter
+  icon: "fa-brands fa-x-twitter"
+
+- type: google_scholar
+  icon: ai ai-google-scholar
+  url: 'https://scholar.google.co.in/citations?user=cI0AioQAAAAJ&hl=en&authuser=1'
 
 - type: github
   icon: "fab fa-github"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+# - type: instagram
+#   icon: "fab fa-instagram"
+#   url: 'https://www.instagram.com/banded_agate/'
 
 - type: email
   icon: "fas fa-envelope"
-  noblank: true # open link in current tab
+  noblank: false # open link in current tab
 
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
+
+
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
