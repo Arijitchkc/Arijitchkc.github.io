@@ -90,8 +90,7 @@ avatar: assets/img/images/author-image.jpg
 # boolean type, the global switch for TOC in posts.
 toc: true
 
-plugins:
-  - jekyll-sitemap
+
 comments:
   active: # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
