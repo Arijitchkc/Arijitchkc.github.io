@@ -23,7 +23,7 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://ChakrabortyArijit.github.io"
+url: "https://arijitchkc.github.io/"
 
 google_scholar:
   username: cI0AioQAAAAJ
@@ -56,7 +56,7 @@ social:
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification: # fill in to your verification string
+google_site_verification: B9j3CqpVBoMif1IvuPrB8cr2c8CNeaaal5d3Wp2Rby0 # fill in to your verification string
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
@@ -206,3 +206,6 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+gems: 
+  -jekyll-sitemap
