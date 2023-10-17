@@ -12,8 +12,8 @@ Let's get to the real stuff now! Sooner or Later, I will also add more descripti
 ## 1. Conversion of Shear wave velocity to Temperature
 - October 2023 to Present
 
-Here, I am trying to convert My shear wave velocity model obtained in the previous project.
-- The main is to obtain the Lithosphere Asthenosphere Boundary, which is considered here as a thermal boundary
+Here, I am trying to convert My shear wave velocity model(obtained in the previous project) to Temperature.
+- The main Objective is to obtain the Lithospheric thickness from the converted temperature. Here Lithosphere-Asthenosphere Boundary is considered a division between 2 very different heat transport regimes, the conducting lithosphere and the isentropic asthenosphere. 
 
 
 
@@ -23,7 +23,7 @@ Here, I am trying to convert My shear wave velocity model obtained in the previo
 <!-- - With Prof. Supriyo Mitra -->
 
 
-In this Project, we have jointly inverted surface wave dispersion curves across Tibet, Himalayas, and Central India to obtain an Anisotropic Shear wave velocity structure. The implications of this research will be:-
+In this Project, we have jointly inverted Love and Rayleigh wave surface wave dispersion curves across Tibet, Himalayas, and Central India to obtain an Anisotropic Shear wave velocity structure. The implications of this research will be:-
 - A detailed Shear wave velocity structure, giving a detailed structure of the Indian Lithosphere beneath Tibet
 - A picture of deformation due to past tectonic processes obtained from Radial Anisotropy. Interpretation of Radial Anisotropy would give us a glimpse of the geodynamics of the region.
 - Reduced discrepancy between Love and Rayleigh wave, which arises in an anisotropic medium
