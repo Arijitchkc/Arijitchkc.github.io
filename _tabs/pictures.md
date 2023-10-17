@@ -7,26 +7,26 @@ order: 6
 <link rel="stylesheet" href="../academicons-1.9.4/css/academicons.css"/>
 
 # Pictures
-Photographs are a gateway to the past, which allow us to relieve the well-spent time. Here are some pictures you might enjoy(Not all are clicked by me!)
+Photographs are a gateway to the past, which allows us to relieve the well-spent time. Here are some pictures you might enjoy. (Not all are clicked by me!)
 
 ## Structural Geology Fieldwork
 {% include moduleR.html image_path="../assets/img/StructuralFieldPhotos/Group1.webp" title="1. Group Photo at Tetuldanga
-" description="Group photo are a mandatory part of field work. This photo is taken in Tetuldanga, a small town near Galudih, Jharkhand. The outcrops here preserve the superposed folding very well." %}
+" description="Group photos are a mandatory part of field work. This photo was taken in Tetuldanga, a small town near Galudih, Jharkhand. The outcrops here preserve the superposed folding very well." %}
 
 <br/>
 
 {% include moduleR.html image_path="../assets/img/StructuralFieldPhotos/Lunch1.webp" title="2. Group enjoying Lunch after a long field-work in the morning
-" description="Everyday this used to be the time we discussed about the first half of our fieldwork and chalk out plans for the rest of the day." %}
+" description="Every day, this used to be when we discussed the first half of our fieldwork and chalked out plans for the rest of the day." %}
 
 <br/>
 
 {% include moduleR.html image_path="../assets/img/StructuralFieldPhotos/BeautifulSky1.webp" title="3. Enjoying a calm evening after a tiring day at the field.
-" description="This was one of the days(One of the toughest days! Hinge Zones are always tougher....) when we could actually finish our work early a bit early and enjoy a calm sunset in the village away from the hustle-bustle of the city. The light blue sky is covered by wooly Winter clouds and highlighted by the crimson color of the setting sun. These are the moments which makes you realize, you have indeed chosen the right profession." %}
+" description="This was one of the days(One of the most challenging days! Hinge Zones are always tougher....) when we could finish our work a bit early and enjoy a calm sunset in the village away from the hustle-bustle of the city. The light blue sky is covered by woolly Winter clouds and highlighted by the crimson colour of the setting sun. These are the moments which make you realize you have indeed chosen the right profession." %}
 
 <br/>
 
 {% include moduleR.html image_path="../assets/img/StructuralFieldPhotos/Brunton1.webp" title="4. Brunton and Rock Hammer on a gneissic exposure
-" description="This is one of last exposures we visited. The golden sunrays was casting long shadows of the brunton and hammer. A joy of completing our first fieldwork was setting in on everyone." %}
+" description="This is one of the last exposures we visited. The golden sunrays were casting long shadows of the Brunton and hammer. The joy of completing our first fieldwork was setting in on everyone." %}
 
 <br/>
 <br/>
@@ -42,7 +42,7 @@ Photographs are a gateway to the past, which allow us to relieve the well-spent 
 <br/>
 
 {% include moduleL.html image_path="../assets/img/SedimentologyFieldPhotos/SField4.webp" title="1. The field is our classroom 1
-" description="Here Sanjay sir can be seen briefing us about the geologic history of the region and chalking out plans for the day, with his very primitive open-air classroom teaching." %}
+" description="Here, Sanjay sir can be seen briefing us about the geologic history of the region and chalking out plans for the day with his very primitive open-air classroom teaching." %}
 
 <br/>
 
@@ -52,7 +52,7 @@ Photographs are a gateway to the past, which allow us to relieve the well-spent 
 <br/>
 
 {% include moduleL.html image_path="../assets/img/SedimentologyFieldPhotos/SField1.webp" title="3. Studying Cross-sections of a paleo-river channel in groups
-" description="Thanks to Covid, our Sedimentology Fieldwork got shifted from December to March, and here we are studying cross-sections under the scorthing summer sun!" %}
+" description="Thanks to Covid, our Sedimentology Fieldwork got shifted from December to March, and here we are studying cross-sections under the scorching summer sun!" %}
 
 <br/>
 

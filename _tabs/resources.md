@@ -8,7 +8,7 @@ order: 5
 
 # Resources
 
-Over the years of undergraduate education and research, I have accumulated some useful pieces of codes which I have planned to gradually upload to github and make them available. Will do this as and when I get time. Till then enjoy these comics(Which you might have probably seen before! )
+Over the years of undergraduate education and research, I have accumulated some useful pieces of code, which I have planned to upload to github and make them available gradually. Will do this as and when I get time. Till then, enjoy these comics(Which you might have probably seen before! )
 
 <div class="container">
     <div class="xkcdComicClass">

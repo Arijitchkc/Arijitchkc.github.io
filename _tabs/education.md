@@ -25,7 +25,7 @@ order: 4
 
 #### Others
 
-I have also spend a considerable amount of time in learning some useful programming languages, which I think is very important to know. I started learning them since Covid-19 lockdown(At least I could bring some good things out of it!!). I now use a combination of these programming/scripting languages for my daily research purposes. These languages are :-
+I have also spent considerable time learning useful programming languages, which I think is very important to know. I started learning them since the Covid-19 lockdown(At least I could bring some good things out of it!!). I now use a combination of these programming/scripting languages for my daily research purposes. These languages are:-
 
 * Python
 * Fortram
