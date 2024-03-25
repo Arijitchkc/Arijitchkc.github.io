@@ -19,7 +19,7 @@ Over the years of undergraduate education and research, I have accumulated some 
 
 <div class="container">
     <div class="xkcdComicClass">
-        <img class="xkcdIMG" id="xkcdComic" src="https://imgs.xkcd.com/comics/deep_end.png" onclick="genRandomLink2()">
+        <img class="xkcdIMG" id="xkcdComic" src="https://imgs.xkcd.com/comics/deep_end.png" onclick="genRandomLink2()" alt="Xkcd Comics">
         <div class="middle">
         <div class="text">Click on image to change!</div>
         </div>
