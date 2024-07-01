@@ -1,7 +1,41 @@
+<style>
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 256px;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  </style>
+
 <div style="clear: both;">
   <div style="float: right; margin-left: 1em;
   padding-bottom: 20px;">
-    <img class="lazyload" src="{{ include.image_path }}" width="400" alt="">
+
+      <div class="gallery">
+        <a target="_blank" href="{{ include.image_path }}">
+          <img src="{{ include.image_path }}" width="400" alt="">
+        </a>
+      </div>
+      <!-- <div class="thumb-container"> 
+        <img class="thumb-image" src= 
+        "{{ include.image_path }}"
+        width="400" alt=""> 
+      </div>  -->
+
+    <!-- <img class="lazyload" src="{{ include.image_path }}" width="400" alt=""> -->
   </div>
   <div>
     <h4>{{ include.title }}</h4>
@@ -9,4 +43,4 @@
   </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script> -->

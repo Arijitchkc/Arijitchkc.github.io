@@ -1,8 +1,33 @@
+<!-- <style> 
+  #div_whatever {
+   position: whatever;
+   background-repeat: no-repeat;
+   background-position: whatever whatever; 
+   background-image: "{{ include.image_path }}";
+   /* image.jpg is a low-resolution at 30% quality. */
+}
+
+#img_highQuality {
+    display: none;
+}
+</style>  -->
+
 <div style="clear: both;">
   <div 
   style="float: left; 
   margin-right: 1em;
   padding-bottom: 20px;">
+
+    <!-- <img id="img_highQuality" src="{{ include.image_path }}"> -->
+    <!-- img.png is a full-resolution image. -->
+
+    <!-- <div id="div_whatever"></div> -->
+
+    <!-- <div class="thumb-container"> 
+      <img class="thumb-image" src= 
+      "{{ include.image_path }}"
+      width="400" alt=""> 
+    </div>  -->
     <img class="lazyload" src="{{ include.image_path }}" width="400" alt="">
   </div>
   <div>
@@ -11,4 +36,7 @@
   </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
+<script src="../assets/js/imgLoader.js"></script>
+
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script> -->

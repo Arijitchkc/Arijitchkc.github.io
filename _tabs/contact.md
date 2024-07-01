@@ -11,6 +11,7 @@ order: 7
 
 # Contact
 
+
 Mail me if you want to get in touch! Will try to answer as soon as possible.
 <br/>
-Mail id: ac19ms004@iiserkol.ac.in
+Mail id: chakrabortyarijit1315@gmail.com
