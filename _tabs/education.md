@@ -10,20 +10,25 @@ order: 4
 </head>
 
 # Education
+* 2024 to present: Durham University, UK
+    - PhD in Geodynamics
+    - Supervisors: <a href="https://www.durham.ac.uk/staff/jeroen-van-hunen/#supervision-students" target="_blank">Prof. Jeroen van Hunen</a>
 
+* 2019 to 2024: Indian Institute of Science Education and Research(IISER), Kolkata
+    - Integrated BS-MS dual degree with a Major in Earth Sciences
+    - Masters Thesis supervisor :- <a href="https://www.iiserkol.ac.in/~supriyomitra/" target="_blank">Prof. Supriyo Mitra</a>
 
-#### Undergraduate education
-* 2019 to 2024
-    - Integrated BS-MS dual degree at Indian Institute of Science Education and Research(IISER), Kolkata
-        - Major :- Earth Sciences
+# Projects
+* 2024 to present: <a href="https://earthsafe-dn.eu/" target="_blank">EarthSafe DN</a>, Unveiling Earth’s Critical Resources for Clean Energy
+and a Sustainable Future, funded by EU Marie Skłodowska-Curie Actions Doctoral Network and UK EPSRC
 
-#### School education
+<!-- #### School education
 
 * 2017 to 2019
     - Higher secondary[CBSE] (12th Standard) at Kalyani Central Model School, Kalyani
 
 * 2017
-    - Secondary[ICSE] (10th Standard) at Tribeni Tissues Vidyapith, Tribeni
+    - Secondary[ICSE] (10th Standard) at Tribeni Tissues Vidyapith, Tribeni -->
 
 
 #### Others

@@ -14,17 +14,34 @@ order: 2
 # My Research
 
 Let's get to the real stuff now! Sooner or Later, I will also add more description to these projects and, if possible, also include a scaled-down version of the codes used.
-## 1. Conversion of shear wave velocity to temperature
-##### Duration:- October 2023 to Present
 
-As a side project of my Master's Thesis, I am aslo trying to convert my shear wave velocity model(obtained in the previous project) to temperature. The main Objective is to obtain the Lithospheric thickness from the converted temperature profiles. Here Lithosphere-Asthenosphere Boundary is considered to be a thermal boundary between 2 very different heat transport regimes, the conducting lithosphere and the isentropic asthenosphere. 
+## 1. Investigating Craton Dynamics and Ore Deposit Formation for Sustainable Critical Minerals Supply
+- Duration:- August 2024 to Present
+
+<br>
+
+## 2. Conversion of shear wave velocity to temperature
+<!-- - Duration:- October 2023 to Present -->
+- With Prof. Supriyo Mitra, IISER Kolkata & Dr. Ajay Kumar, IISER Pune
 
 
+<p><img src="../assets/img/Research/vs2Tmp.webp" alt="Pineapple" style="width:5cm;height:10cm;margin-left:15px; float: right;  clear: both;"></p>
 
-## 2. Joint anisotropic inversion of Love and Rayleigh wave dispersion
-##### Duration:- September 2022 to current
 
-<!-- - With Prof. Supriyo Mitra -->
+<p>As a side project of my Master's Thesis, I am aslo trying to convert my shear wave velocity model(obtained in the previous project) to temperature. The main Objective is to obtain the Lithospheric thickness from the converted temperature profiles. Here Lithosphere-Asthenosphere Boundary is considered to be a thermal boundary between 2 very different heat transport regimes, the conducting lithosphere and the isentropic asthenosphere.</p>
+
+Right image: *A cross-section of the downgoing Indian plate under the Indo-Burma subduction zone. The mantle wedge shows a negative anisotropy(Indicated by white lines)*
+
+
+<br>
+    
+<br>
+<br>
+
+
+## 3. Joint anisotropic inversion of Love and Rayleigh wave dispersion
+<!-- - Duration:- September 2022 to Present -->
+- With Prof. Supriyo Mitra, IISER Kolkata
 
 
 In this project, we have jointly inverted Love and Rayleigh wave surface wave dispersion curves across Tibet, Himalayas, and Central India to obtain an anisotropic shear wave velocity structure. The implications of this research will be:-
@@ -44,9 +61,13 @@ In this project, we have jointly inverted Love and Rayleigh wave surface wave di
 ![Image](../assets/img/Research/IBSZ.webp)
 *A cross-section of the downgoing Indian plate under the Indo-Burma subduction zone. The mantle wedge shows a negative anisotropy(Indicated by white lines)*
 
-## 3. GPE evolution from 150Mya to preset day
-##### Duration:- May 2022 to July 2022
-<!-- - With Dr. Attreyee Ghosh, IISc Bengaluru -->
+
+<br>
+
+
+## 4. GPE evolution from 150Mya to preset day
+- Duration:- May 2022 to July 2022
+- With Dr. Attreyee Ghosh, IISc Bengaluru
 
 Here, the initial objective was to see the variation of temperature in the oceanic lithosphere with age and construct a lithospheric thickness map for oceanic plates. This was first done for present-day oceanic age grids and later calculated from 200 Myr to the present day to see its evolution.  
 

@@ -18,3 +18,7 @@ order: 6
 This Photo is special for everybody who has followed this Argentina team for a long time. Each and Every player in this team is adored by people who love Argentina and Leo Messi. " %}
 
 <br/>
+
+<div class="botton-with-arrow-back"> 
+      <p><a href="pictures/index.html"><i class="fas fa-square-caret-left"></i> Back to pictures page</a></p>
+</div> 

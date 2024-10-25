@@ -1,4 +1,13 @@
 /* Buttons */
+.botton-with-arrow-back a{
+  clear: both;
+  margin-top: 5cm;
+  padding: 12px 20px;
+}
+.botton-with-arrow-back a:hover{
+  color: rgba(57, 99, 214, 0.815);
+}
+
 
 .white-button a {
     display: inline-block;

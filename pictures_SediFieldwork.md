@@ -4,10 +4,10 @@ title: Sedimentology Geology Fieldwork
 icon: 
 order: 6
 ---
-
-<link rel="stylesheet" href="../academicons-1.9.4/css/academicons.css"/>
-<link rel="stylesheet" href="../assets/css/tempCSS.css"/>
-
+<head>
+    <link rel="stylesheet" href="../academicons-1.9.4/css/academicons.css"/>
+    <link rel="stylesheet" href="../assets/css/tempCSS.css"/>    
+</head>
 
 ## Sedimentology Fieldwork
 
@@ -31,3 +31,14 @@ order: 6
 
 {% include moduleR.html image_path="../assets/img/SedimentologyFieldPhotos/SField3.webp" title="4. Studying Cross-section
 " description="In the sun, In the sand, In the heat..." %}
+
+<br/>
+
+<div class="botton-with-arrow-back"> 
+      <p> </p>
+      <p> </p>
+      <p> </p>
+      <p><a href="pictures/index.html"><i class="fas fa-square-caret-left"></i> Back to pictures page</a></p>
+</div> 
+
+<!-- [Back](pictures/index.html) -->

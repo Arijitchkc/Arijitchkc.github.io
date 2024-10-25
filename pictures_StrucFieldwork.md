@@ -27,3 +27,9 @@ order: 6
 
 {% include moduleR.html image_path="../assets/img/StructuralFieldPhotos/Brunton1.webp" title="4. Brunton and Rock Hammer on a gneissic exposure
 " description="This is one of the last exposures we visited. The golden sunrays were casting long shadows of the Brunton and hammer. The joy of completing our first fieldwork was setting in on everyone." %}
+
+<br/>
+
+<div class="botton-with-arrow-back"> 
+      <p><a href="pictures/index.html"><i class="fas fa-square-caret-left"></i> Back to pictures page</a></p>
+</div> 
