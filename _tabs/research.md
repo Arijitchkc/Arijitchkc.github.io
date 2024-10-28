@@ -17,20 +17,25 @@ Let's get to the real stuff now! Sooner or Later, I will also add more descripti
 
 ## 1. Investigating Craton Dynamics and Ore Deposit Formation for Sustainable Critical Minerals Supply
 - Duration:- August 2024 to Present
+- with Prof. Jeroen van Hunen and other EarthSafe collaborators
 
+Details coming up!
 <br>
 
 ## 2. Conversion of shear wave velocity to temperature
 <!-- - Duration:- October 2023 to Present -->
-- With Prof. Supriyo Mitra, IISER Kolkata & Dr. Ajay Kumar, IISER Pune
+<!-- - With Prof. Supriyo Mitra, IISER Kolkata & Dr. Ajay Kumar, IISER Pune -->
 
 
 <p><img src="../assets/img/Research/vs2Tmp.webp" alt="Pineapple" style="width:5cm;height:10cm;margin-left:15px; float: right;  clear: both;"></p>
 
 
-<p>As a side project of my Master's Thesis, I am aslo trying to convert my shear wave velocity model(obtained in the previous project) to temperature. The main Objective is to obtain the Lithospheric thickness from the converted temperature profiles. Here Lithosphere-Asthenosphere Boundary is considered to be a thermal boundary between 2 very different heat transport regimes, the conducting lithosphere and the isentropic asthenosphere.</p>
 
-Right image: *A cross-section of the downgoing Indian plate under the Indo-Burma subduction zone. The mantle wedge shows a negative anisotropy(Indicated by white lines)*
+<p>As a side project of my Master's Thesis, I also converted my shear wave velocity model(obtained in the previous project) to temperature. I used 2 methods for the conversion. The first method is the one developed by Priestly et al., 2006, which uses an empirical relation between shear wave velocity and temperature. The second method is based on the Litmod approach, developed by Kumar et al., 2020, which calculates material properties at a range of PT conditions and compares them to observations to find appropriate temperatures. It is observed that both the methods give similar results. 
+
+Finally, we obtain a lithosphere thickness model accross India and Tibet, from the temperature model.</p>
+
+Right image: *Conversion of shear wave velocity to temperature, for a single node*
 
 
 <br>
