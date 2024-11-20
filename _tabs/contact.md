@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contact
-icon: 
+icon: "fa-regular fa-address-card"
 order: 7
 ---
 

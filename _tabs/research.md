@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Research
-icon: 
+icon: "fa-solid fa-magnifying-glass"
 order: 2
 ---
 

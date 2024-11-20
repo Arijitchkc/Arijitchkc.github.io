@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Resources
-icon: 
+icon: "fa-solid fa-clipboard-list"
 order: 5
 ---
 

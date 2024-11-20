@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Education
-icon: 
+icon: "fa-solid fa-graduation-cap"
 order: 4
 ---
 <head>

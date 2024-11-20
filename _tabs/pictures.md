@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pictures
-icon: 
+icon: "fa-solid fa-camera-retro"
 order: 6
 ---
 
