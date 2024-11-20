@@ -37,6 +37,9 @@ twitter:
 github:
   username: Arijitchkc # change to your github username
 
+bluesky:
+  username: arijitchk.bsky.social
+
 
 
 
@@ -50,8 +53,9 @@ social:
   email: ac19ms004@iiserkol.ac.in # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/arijitchkc # change to your twitter homepage
     - https://github.com/Arijitchkc # change to your github homepage
+    - https://twitter.com/arijitchkc # change to your twitter homepage
+    - https://bsky.app/profile/arijitchk.bsky.social # change to your bluesky homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -74,7 +78,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: dark # [light|dark]
+theme_mode: #[light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url

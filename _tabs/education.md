@@ -6,7 +6,10 @@ order: 4
 ---
 <head>
     <link rel="stylesheet" href="../academicons-1.9.4/css/academicons.css"/>
-    
+    <!-- <script src="https://kit.fontawesome.com/f3d052e4c8.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/f3d052e4c8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+          
 </head>
 
 # Education
@@ -35,8 +38,8 @@ and a Sustainable Future, funded by EU Marie Skłodowska-Curie Actions Doctoral 
 
 I also spend considerable time learning useful programming languages, which I think is very important to know. I started learning them since the Covid-19 lockdown(At least I could bring some good things out of it!). I now use a combination of these programming/scripting languages for my daily research purposes. These languages are:-
 
-* Python
-* Fortran
-* C and C++
-* bash 
+*  <i class="devicon-python-plain"></i> Python
+*  <i class="devicon-fortran-original"></i> Fortran
+* C and  <i class="devicon-cplusplus-plain"></i> C++
+*  <i class="devicon-bash-plain"></i> bash 
 * GMT

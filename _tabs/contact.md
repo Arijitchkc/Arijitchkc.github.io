@@ -7,6 +7,7 @@ order: 7
 
 <link rel="stylesheet" href="../academicons-1.9.4/css/academicons.css"/>
 <link rel="stylesheet" href="../assets/css/tempCSS.css"/>
+<script src="https://kit.fontawesome.com/f3d052e4c8.js" crossorigin="anonymous"></script>
 
 
 # Contact

@@ -1,17 +1,23 @@
+
+
 #  The contact options.
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+- type: bluesky
+  icon: "fa-brands fa-bluesky"
+  url: "https://bsky.app/profile/arijitchk.bsky.social"
 
 - type: google_scholar
-  icon: ai ai-google-scholar
+  icon: "fa-brands fa-google-scholar" #ai ai-google-scholar
   url: 'https://scholar.google.co.in/citations?user=kNKmUSMAAAAJ&hl=en&authuser=1'
 
 - type: github
-  icon: "fab fa-github"
+  icon: "fa-brands fa-github" #"fab fa-github"
 
-# - type: instagram
-#   icon: "fab fa-instagram"
-#   url: 'https://www.instagram.com/banded_agate/'
+- type: instagram
+  icon: "fa-brands fa-instagram" #"fab fa-instagram"
+  url: 'https://www.instagram.com/arijitchkc/'
+
+- type: twitter
+  icon: "fa-brands fa-twitter" #"fa-brands fa-x-twitter"
 
 - type: email
   icon: "fas fa-envelope"
