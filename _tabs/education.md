@@ -9,13 +9,15 @@ order: 4
     <!-- <script src="https://kit.fontawesome.com/f3d052e4c8.js" crossorigin="anonymous"></script> -->
     <script src="https://kit.fontawesome.com/f3d052e4c8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-          
+    <link rel="stylesheet" href="../assets/css/tempCSS.css"/> 
+
 </head>
 
 # Education
 * 2024 to present: Durham University, UK
     - PhD in Geodynamics
-    - Supervisors: <a href="https://www.durham.ac.uk/staff/jeroen-van-hunen/#supervision-students" target="_blank">Prof. Jeroen van Hunen</a>
+    - Supervisors:  <a href="https://www.durham.ac.uk/staff/jeroen-van-hunen/#supervision-students" target="_blank" >Prof. Jeroen van Hunen</a>
+  
 
 * 2019 to 2024: Indian Institute of Science Education and Research(IISER), Kolkata
     - Integrated BS-MS dual degree with a Major in Earth Sciences
