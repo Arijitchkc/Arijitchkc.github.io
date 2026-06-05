@@ -3,4 +3,62 @@
 
 @import 'main';
 
-/* append your custom style below */
+/* Site-specific styles */
+
+.gallery-item__image img {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  border-radius: 0.25rem;
+}
+
+.xkcd-container img {
+  cursor: pointer;
+  max-width: 100%;
+}
+
+/* Hide search bar */
+#search-trigger,
+#search,
+#search-cancel {
+  display: none !important;
+}
+
+/* Resource cards */
+.project-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  border-left: 3px solid transparent !important;
+}
+
+.project-card--live {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
+}
+
+.project-card--live:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15) !important;
+  border-left-color: #6c757d !important;
+}
+
+.project-card--soon {
+  opacity: 0.65;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06) !important;
+}
+
+.project-card--soon:hover {
+  opacity: 0.85;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Full-width content — hide right panel and expand main */
+#panel-wrapper {
+  display: none !important;
+}
+
+main[aria-label="Main Content"],
+#tail-wrapper {
+  width: 100% !important;
+  max-width: 100% !important;
+  flex: 0 0 100% !important;
+}

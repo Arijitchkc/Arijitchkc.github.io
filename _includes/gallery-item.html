@@ -1,0 +1,11 @@
+<div class="gallery-item clearfix mb-4">
+  <figure class="gallery-item__image float-md-end ms-md-3 mb-3">
+    <a href="{{ include.image | relative_url }}" target="_blank" rel="noopener">
+      <img src="{{ include.image | relative_url }}" alt="{{ include.title }}" loading="lazy">
+    </a>
+  </figure>
+  <div class="gallery-item__text">
+    <h4>{{ include.title }}</h4>
+    {{ include.description | markdownify }}
+  </div>
+</div>

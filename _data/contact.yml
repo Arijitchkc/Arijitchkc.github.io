@@ -1,40 +1,21 @@
-
-
-#  The contact options.
 - type: bluesky
   icon: "fa-brands fa-bluesky"
   url: "https://bsky.app/profile/arijitchk.bsky.social"
 
 - type: google_scholar
-  icon: "fa-brands fa-google-scholar" #ai ai-google-scholar
-  url: 'https://scholar.google.co.in/citations?user=kNKmUSMAAAAJ&hl=en&authuser=1'
+  icon: "fa-brands fa-google-scholar"
+  url: "https://scholar.google.co.in/citations?user=kNKmUSMAAAAJ&hl=en&authuser=1"
 
 - type: github
-  icon: "fa-brands fa-github" #"fab fa-github"
+  icon: "fa-brands fa-github"
 
 - type: instagram
-  icon: "fa-brands fa-instagram" #"fab fa-instagram"
-  url: 'https://www.instagram.com/arijitchkc/'
+  icon: "fa-brands fa-instagram"
+  url: "https://www.instagram.com/arijitchkc/"
 
 - type: twitter
-  icon: "fa-brands fa-twitter" #"fa-brands fa-x-twitter"
+  icon: "fa-brands fa-twitter"
 
 - type: email
   icon: "fas fa-envelope"
-  noblank: false # open link in current tab
-
-
-
-# Uncomment and complete the url below to enable more contact options
-#
-# - type: mastodon
-#   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
-#   url:  ''                  # Fill with your Mastodon account page, rel="me" will be applied for verification
-#
-# - type: linkedin
-#   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
-#   url:  ''                  # Fill with your Linkedin homepage
-#
-# - type: stack-overflow
-#   icon: 'fab fa-stack-overflow'
-#   url:  ''                  # Fill with your stackoverflow homepage
+  noblank: true
