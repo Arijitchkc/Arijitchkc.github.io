@@ -45,9 +45,9 @@ comments:
   provider:
 
 pwa:
-  enabled: true
+  enabled: false
   cache:
-    enabled: true
+    enabled: false
     deny_paths:
 
 baseurl: ""

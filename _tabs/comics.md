@@ -7,7 +7,7 @@ order: 4
 <div class="row g-5 mt-1">
 
   <!-- xkcd -->
-  <div class="col-lg-6">
+  <div class="col-md-6">
     <h5 class="text-center mb-3">xkcd</h5>
     <div class="text-center">
       <a id="xkcd-link" href="https://xkcd.com" target="_blank" rel="noopener">
@@ -29,7 +29,7 @@ order: 4
   </div>
 
   <!-- PhD Comics -->
-  <div class="col-lg-6">
+  <div class="col-md-6">
     <h5 class="text-center mb-3">PhD Comics</h5>
     <div class="text-center">
       <a id="phd-link" href="https://phdcomics.com" target="_blank" rel="noopener">
