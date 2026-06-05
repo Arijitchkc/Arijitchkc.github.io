@@ -6,7 +6,7 @@ order: 3
 
 # Resources
 
-Over the years of undergraduate education and research, I have accumulated useful pieces of code. Here are some projects available on GitHub.
+Over the years of PhD and undergraduate research, I have accumulated useful pieces of code. Here are some projects available(and yet to be) on GitHub.
 
 <p class="text-muted mt-4 mb-2"><small class="text-uppercase fw-semibold ls-1">Available</small></p>
 
