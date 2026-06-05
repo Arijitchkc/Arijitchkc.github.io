@@ -24,31 +24,32 @@
   display: none !important;
 }
 
+/* Fix missing Bootstrap nav list-style reset */
+#sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
 /* Resource cards */
 .project-card {
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  border: 1px solid rgba(128, 128, 128, 0.2) !important;
   border-left: 3px solid transparent !important;
-}
-
-.project-card--live {
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
 }
 
 .project-card--live:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15) !important;
   border-left-color: #6c757d !important;
+  border-color: rgba(128, 128, 128, 0.4) !important;
 }
 
 .project-card--soon {
   opacity: 0.65;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06) !important;
 }
 
 .project-card--soon:hover {
   opacity: 0.85;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
 }
 
 /* Full-width content — hide right panel and expand main */
