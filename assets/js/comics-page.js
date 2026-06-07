@@ -77,48 +77,65 @@
   const phdTitle = document.getElementById("phd-title");
   const phdDate  = document.getElementById("phd-date");
 
-  let phdItems = [];
-  let lastPhdIdx = -1;
+  // Real strip images: phd<digits>[s].(gif|jpg|png) — book promos use different filenames
+  const PHD_STRIP_RE = /\/phd\d{3,6}s?\.(gif|jpg|png)/i;
 
-  async function loadPhdFeed() {
+  let phdMaxId = 2050;
+  let lastPhdId = -1;
+
+  async function initPhd() {
+    // Get the latest comic ID from the feed so we know the archive size
     try {
       const res = await fetch(PROXY("https://phdcomics.com/gradfeed.php"));
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const text = await res.text();
-      const xml = new DOMParser().parseFromString(text, "text/xml");
-      const items = [...xml.querySelectorAll("item")];
-      phdItems = items.map((item) => {
-        const desc = item.querySelector("description").textContent;
-        const descDom = new DOMParser().parseFromString(desc, "text/html");
-        const imgEl = descDom.querySelector("img");
-        const titleRaw = item.querySelector("title").textContent.replace(/^\d{2}\/\d{2}\/\d{2}\s+PHD comic:\s*/i, "").replace(/^'|'$/g, "");
-        const link = item.querySelector("link").textContent.trim();
-        const pub = item.querySelector("pubDate")?.textContent || "";
-        const dateStr = pub ? new Date(pub).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }) : "";
-        return { img: imgEl?.src || null, title: titleRaw, link, date: dateStr };
-      }).filter(c => c.img);
-
-      if (phdItems.length) loadPhdComic();
+      const ids = [...text.matchAll(/[?&]f=(\d+)/g)].map(m => +m[1]);
+      if (ids.length) phdMaxId = Math.max(...ids);
     } catch (e) {
-      console.error("PhD Comics feed failed:", e);
+      console.warn("PhD feed init failed, using fallback max id:", e);
     }
+    loadPhdComic();
   }
 
-  function loadPhdComic() {
-    if (!phdItems.length || !phdImg) return;
-    let idx;
-    do { idx = Math.floor(Math.random() * phdItems.length); }
-    while (idx === lastPhdIdx && phdItems.length > 1);
-    lastPhdIdx = idx;
-    const comic = phdItems[idx];
+  async function loadPhdComic(retries = 0) {
+    if (!phdImg || retries > 8) return;
+
+    let id;
+    do { id = Math.floor(Math.random() * phdMaxId) + 1; }
+    while (id === lastPhdId);
+    lastPhdId = id;
+
+    const comicUrl = `https://www.phdcomics.com/comics/archive.php?comicid=${id}`;
     phdImg.style.opacity = "0.4";
-    phdImg.src = comic.img;
-    phdImg.alt = comic.title;
-    if (phdLink) phdLink.href = comic.link;
-    if (phdTitle) phdTitle.textContent = comic.title;
-    if (phdDate) phdDate.textContent = comic.date;
-    phdImg.onload = () => { phdImg.style.opacity = "1"; };
-    phdImg.onerror = () => { phdImg.style.opacity = "1"; };
+
+    try {
+      const res = await fetch(PROXY(comicUrl));
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const html = await res.text();
+
+      // Use regex on raw HTML — DOMParser doesn't resolve URLs through the proxy
+      const imgMatch = html.match(/src=["']((?:https?:)?\/\/[^"']*\/comics\/archive\/phd[^"']*\.(?:gif|jpg|png))["']/i);
+      if (!imgMatch || !PHD_STRIP_RE.test(imgMatch[1])) {
+        return loadPhdComic(retries + 1);
+      }
+
+      let imgSrc = imgMatch[1];
+      if (imgSrc.startsWith("//")) imgSrc = "http:" + imgSrc;
+
+      const titleMatch = html.match(/<title[^>]*>PHD Comics?:\s*([^<]+)<\/title>/i);
+      const title = titleMatch ? titleMatch[1].trim() : `Comic #${id}`;
+
+      phdImg.src = imgSrc;
+      phdImg.alt = title;
+      if (phdLink) phdLink.href = comicUrl;
+      if (phdTitle) phdTitle.textContent = title;
+      if (phdDate) phdDate.textContent = `#${id}`;
+      phdImg.onload = () => { phdImg.style.opacity = "1"; };
+      phdImg.onerror = () => { phdImg.style.opacity = "1"; };
+    } catch (e) {
+      console.error(`PhD comic #${id} failed:`, e);
+      loadPhdComic(retries + 1);
+    }
   }
 
   if (phdImg) {
@@ -130,6 +147,6 @@
     phdImg.addEventListener("keydown", (e) => {
       if (e.key === "Enter" || e.key === " ") { e.preventDefault(); phdImg.click(); }
     });
-    loadPhdFeed();
+    initPhd();
   }
 })();

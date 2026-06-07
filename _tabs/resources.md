@@ -61,6 +61,11 @@ Over the years of PhD and undergraduate research, I have accumulated useful piec
         </div>
         <p class="card-text text-muted">A neural network surrogate model for phase equilibrium thermodynamic calculations, designed to replace computationally expensive GFEM solvers in large-scale geodynamic models.</p>
       </div>
+      <div class="card-footer bg-transparent border-0 pb-3">
+        <a href="{{ '/neural-network-demo/' | relative_url }}" class="btn btn-sm btn-outline-secondary">
+          Open demo <i class="fa-solid fa-arrow-right ms-1"></i>
+        </a>
+      </div>
     </div>
   </div>
 
